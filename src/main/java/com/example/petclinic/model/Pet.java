@@ -6,7 +6,7 @@ import java.time.Instant;
  * @author Tocka Ayman
  * @date 8/1/20
  */
-public class Pet {
+public class Pet extends BaseEntity {
 
     private PetType type;
     private Owner owner;
