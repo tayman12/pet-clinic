@@ -1,20 +1,22 @@
 package com.example.petclinic.services;
 
+import com.example.petclinic.model.BaseEntity;
+
 import java.util.Set;
 
 /**
  * @author Tocka Ayman
  * @date 8/11/20
  */
-public interface CrudService<T, ID> {
+public interface CrudService {
 
-    Set<T> findAll();
+    Set<BaseEntity> findAll();
 
-    T findById(ID id);
+    BaseEntity findById(Long id);
 
-    T save(T object);
+    BaseEntity save(BaseEntity object);
 
-    void delete(T object);
+    void delete(BaseEntity object);
 
-    void deleteById(ID id);
+    void deleteById(Long id);
 }

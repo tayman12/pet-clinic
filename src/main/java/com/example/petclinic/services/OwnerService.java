@@ -6,6 +6,7 @@ import com.example.petclinic.model.Owner;
  * @author Tocka Ayman
  * @date 8/10/20
  */
-public interface OwnerService extends CrudService<Owner, Long> {
+public interface OwnerService extends CrudService {
 
+    Owner findByLastName(String lastName);
 }
