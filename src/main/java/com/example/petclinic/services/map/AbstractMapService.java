@@ -1,6 +1,6 @@
 package com.example.petclinic.services.map;
 
-import com.example.petclinic.model.BaseEntity;
+import com.example.petclinic.models.BaseEntity;
 import com.example.petclinic.services.CrudService;
 
 import java.util.HashMap;

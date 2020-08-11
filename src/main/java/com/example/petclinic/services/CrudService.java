@@ -1,6 +1,6 @@
 package com.example.petclinic.services;
 
-import com.example.petclinic.model.BaseEntity;
+import com.example.petclinic.models.BaseEntity;
 
 import java.util.Set;
 

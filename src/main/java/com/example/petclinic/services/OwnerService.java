@@ -1,6 +1,6 @@
 package com.example.petclinic.services;
 
-import com.example.petclinic.model.Owner;
+import com.example.petclinic.models.Owner;
 
 /**
  * @author Tocka Ayman

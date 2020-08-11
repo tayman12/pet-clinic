@@ -1,6 +1,6 @@
 package com.example.petclinic.services.map;
 
-import com.example.petclinic.model.Owner;
+import com.example.petclinic.models.Owner;
 import com.example.petclinic.services.OwnerService;
 
 /**
