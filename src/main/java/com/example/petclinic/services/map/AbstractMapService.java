@@ -27,6 +27,11 @@ public abstract class AbstractMapService implements CrudService {
     }
 
     @Override
+    public Boolean existsById(Long id) {
+        return map.containsKey(id);
+    }
+
+    @Override
     public BaseEntity save(BaseEntity object) {
         map.put(object.getId(), object);
 

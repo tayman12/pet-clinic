@@ -14,6 +14,8 @@ public interface CrudService {
 
     BaseEntity findById(Long id);
 
+    Boolean existsById(Long id);
+
     BaseEntity save(BaseEntity object);
 
     void delete(BaseEntity object);
