@@ -35,7 +35,7 @@ public class DataLoader implements CommandLineRunner {
         if (!ownerService.existsById(1L)) {
             Owner owner = new Owner();
 
-            owner.setId(123L);
+            owner.setId(1L);
             owner.setFirstName("Radwa");
             owner.setLastName("Ayman");
 
