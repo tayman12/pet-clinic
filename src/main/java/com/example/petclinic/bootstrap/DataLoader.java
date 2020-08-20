@@ -32,46 +32,34 @@ public class DataLoader implements CommandLineRunner {
     }
 
     public void loadOwners() {
-        if (!ownerService.existsById(1L)) {
-            Owner owner = new Owner();
+        Owner owner1 = new Owner();
 
-            owner.setId(1L);
-            owner.setFirstName("Radwa");
-            owner.setLastName("Ayman");
+        owner1.setFirstName("Radwa");
+        owner1.setLastName("Ayman");
 
-            ownerService.save(owner);
-        }
+        ownerService.save(owner1);
 
-        if (!ownerService.existsById(2L)) {
-            Owner owner = new Owner();
+        Owner owner2 = new Owner();
 
-            owner.setId(2L);
-            owner.setFirstName("Hossam");
-            owner.setLastName("Hassan");
+        owner2.setFirstName("Hossam");
+        owner2.setLastName("Hassan");
 
-            ownerService.save(owner);
-        }
+        ownerService.save(owner2);
     }
 
     public void loadVets() {
-        if (!vetService.existsById(1L)) {
-            Vet vet = new Vet();
+        Vet vet1 = new Vet();
 
-            vet.setId(1L);
-            vet.setFirstName("Mohamed");
-            vet.setLastName("Gamal");
+        vet1.setFirstName("Mohamed");
+        vet1.setLastName("Gamal");
 
-            vetService.save(vet);
-        }
+        vetService.save(vet1);
 
-        if (!vetService.existsById(2L)) {
-            Vet vet = new Vet();
+        Vet vet2 = new Vet();
 
-            vet.setId(2L);
-            vet.setFirstName("Ahmed");
-            vet.setLastName("Ramy");
+        vet2.setFirstName("Ahmed");
+        vet2.setLastName("Ramy");
 
-            vetService.save(vet);
-        }
+        vetService.save(vet2);
     }
 }
